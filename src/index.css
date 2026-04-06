@@ -1,0 +1,283 @@
+@media screen and (min-width:320px) and (max-width:570px) {
+    .navpart2 ul{
+        gap: 0px;
+    }
+    .aboutsection p{
+        width: unset;
+    }
+    .aboutimg{
+        width: unset;
+        height: unset;
+    }
+    .aboutsection .row{
+        gap: 20px;
+    }
+    .revirews{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .reviewsection{
+        height: unset;
+    }
+    .review{
+        height: unset;
+        margin: 10px;
+        width: unset;
+    }
+    .amazoncor1 img {
+    width: 294px;
+    height: 237px;}
+    .midd{
+        height: unset;
+    }
+    .home{
+        height: 780px;
+    }
+
+    .homeimg1{
+    position: absolute;
+    top: 80px;
+    left: 110px;
+    height: 86px;
+    width: 86px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.homeimg2{
+    position: absolute;
+    top: 10px;
+    left: 110px;
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.homeimg3{
+    position: absolute;
+    top: 78px;
+    left: 18px;
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.homeimg4{
+    position: absolute;
+    top: 50px;
+    left: 210px;
+    height:56px;
+    width: 56px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.homeimg5{
+    position: absolute;
+    top: 120px;
+    left: 220px;
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.homeimg6{
+    position: absolute;
+    top: 168px;
+    left: 38px;
+    height: 68px;
+    width: 68px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.homeimg7{
+    position: absolute;
+    top: 178px;
+    left: 140px;
+    height: 77px;
+    width: 77px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.sellingpart2 .row{
+    flex-direction:column-reverse ;
+}
+.newcourses{
+    margin: auto;
+}
+.whycourseshere{
+    height: unset;
+}
+.whycard{
+    margin: auto;
+}
+ .cards .row{
+        gap: 10px;
+    }
+
+    .touchbox1{
+        width: unset;
+        height: unset;
+        padding: 0px;
+    }
+    .footerbox{
+        height: unset;
+    }
+    .newcourses{
+        width: unset;
+    }
+    .newcoursesimg{
+        width: unset;
+    }
+    .homebgimg{
+        width: unset;
+    }
+    .btn1 a{
+        font-size: 8px;
+        width: unset;
+    }
+     .btn2 a{
+        font-size: 8px;
+        width: unset;
+    }
+   
+    .homebtns{
+        flex-direction: column;
+    }
+    .homebtn2{
+        margin-top: 10px;
+    }
+     .homebtn1{
+        margin-top: 10px;
+    }
+    .trainer h1 span{
+        display: block;
+    }
+    .touchbg{
+        width: unset;
+        margin-bottom: 10px;
+    }
+    .touchbox1 p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:570px) and (max-width:768px) {
+     .btn1 a{
+        font-size: 8px;
+    }
+    .btn1 a{
+        font-size: 8px;
+    }
+    .homebgimg{
+        width: unset;
+    }   
+     .newcoursesimg{
+        width: unset;
+    }
+    .newcourses{
+        width: unset;
+    }
+    .footerbox{
+        height: unset;
+    }
+     .touchbox1{
+        width: unset;
+        height: unset;
+        padding: 0px;
+    }
+    .whycard{
+        margin: auto;
+        
+    }
+    .cards .row{
+        gap: 10px;
+    }
+    .whycourseshere{
+    height: unset;
+}
+   .newcourses{
+    margin: auto;
+}
+    .sellingpart2 .row{
+    flex-direction:column-reverse ;
+}
+    .navpart2 ul{
+        gap: 0px;
+    }
+      .aboutsection p{
+        width: unset;
+    }
+      .aboutimg{
+        width: unset;
+        height: unset;
+    }
+     .aboutsection .row{
+        gap: 20px;
+    }
+
+   .homeimg1{
+    position: absolute;
+    top: 146px;
+    left: 116px;
+    height: 146px;
+    width: 146px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.homeimg2{
+    position: absolute;
+    top: 10px;
+    left: 134px;
+    height: 96px;
+    width: 96px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.homeimg3{
+    position: absolute;
+    top: 78px;
+    left: 0px;
+    height: 96px;
+    width: 96px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.homeimg4{
+    position: absolute;
+    top: 75px;
+        left: 266px;
+    height: 96px;
+    width: 96px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.homeimg5{
+    position: absolute;
+            top: 258px;
+        left: 245px;
+    height: 132px;
+    width: 132px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.homeimg6{
+    position: absolute;
+    top: 238px;
+    left: 0px;
+    height: 108px;
+    width: 108px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.homeimg7{
+    position: absolute;
+          top: 342px;
+        left: 120px;
+    height: 127px;
+    width: 127px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+ 
+}

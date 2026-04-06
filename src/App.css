@@ -1,0 +1,854 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      font-family: "Poppins"
+}
+
+.navpart1{
+    width: 200px;
+    height: 90px;
+    object-fit: cover;
+}
+.navpart1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.navpart3 a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     min-height: 90px; 
+     background-color: #FBFBFB;
+}
+.navpart2 ul{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.navpart2 li{
+    list-style: none;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+}
+
+.navpart3{
+    display: flex;
+    justify-content: center;
+}
+
+.navpart3 button{
+   font-weight: 700;
+    font-size: 18px;
+    color: white;
+    padding: 10px 15px;
+    background-image: linear-gradient(to right,#0C0101,#FF9100);
+    border-radius: 30px;
+    border: none; 
+}
+
+
+/* this is home section  css*/
+.whatsappicon{
+    font-size: 44px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding-left: 8px;
+    padding-top: 3px;
+    background-color: white;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    
+}
+.whatsappicon a{
+    color: green;
+}
+.home{
+    width: 100%;
+    height: 522px;
+    background-image: linear-gradient(#FBFBFB,#FFF2E2 30%,#FF9100 80%);
+    box-shadow: 0px 0px 8px 2px gray;
+}
+.homebtn1 a{
+    text-decoration: none;
+    color: white;
+}
+.homebtn1{
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(#000000,#666666);
+    border-radius: 10px;
+    padding: 8px 32px;
+    margin-top: 40px;
+    
+
+}
+.homebtn1:hover{
+    a{
+
+        color: white;
+    }
+background-image: linear-gradient(#F18B05);
+}
+
+
+.homebtn2 {
+    font-size: 18px;
+    font-weight: 700;
+    background-color: white;
+    border-radius: 10px;
+    padding: 8px 32px;
+    margin-top: 40px;
+}
+.homebtn2 a{
+    color: black;
+    text-decoration: none;
+}
+
+.homebtn2:hover{
+    a{
+
+        color: white;
+    }
+background-color: #F18B05;
+}
+
+.homebtns{
+    display: flex;
+    gap: 40px;
+}
+
+.midd{
+    /* border: 1px solid black; */
+    /* height: 100vh; */
+    height: 522px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    padding-left: 20px;
+    position: relative;
+}
+.homebgimg{
+       position: absolute;
+    width: 540px;
+        top: 120px;
+    height: 200px;
+    z-index: 1;
+}
+.homebgimg img{
+    height: 100%;
+    width: 100%;
+}
+.midd h1{
+    font-weight: bold;
+    font-size: 43px;
+}
+.midd p{
+    font-weight: 400;
+    font-size: 20px;
+}
+.middd{
+    position: relative;
+}
+.homeimg1{
+    position: absolute;
+    top: 155px;
+    left: 200px;
+    height: 186px;
+    width: 186px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.homeimg2{
+    position: absolute;
+    top: 10px;
+    left: 220px;
+    height: 116px;
+    width: 116px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.homeimg3{
+    position: absolute;
+    top: 78px;
+    left: 58px;
+    height: 116px;
+    width: 116px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.homeimg4{
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    height: 116px;
+    width: 116px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.homeimg5{
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    height: 152px;
+    width: 152px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.homeimg6{
+    position: absolute;
+    top: 238px;
+    left: 34px;
+    height: 138px;
+    width: 138px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+.homeimg7{
+    position: absolute;
+    top: 350px;
+    left: 280px;
+    height: 157px;
+    width: 157px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+
+
+
+
+/*  this is about section css */
+.aboutsection h1
+{
+font-weight: 400;
+font-size: 40px;
+font-family: "Reggae One";
+}
+.aboutsection p{
+    font-weight: 400;
+    font-size: 16px;
+    color: gray;
+    width: 635px;
+    padding: 20px 0px;
+    
+}
+.aboutsection button{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 8px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(to left, #F18B05 10%,#000000 60%);
+}
+.aboutsection button:hover{
+    background-image: linear-gradient(#F18B05);
+    color: white;
+}
+.aboutimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+
+}
+.aboutimg{
+    height: 333px;
+    width: 387px;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.aboutsection .row{
+    align-items: center;
+}
+.aboutsection{
+    margin: 40px 0px;
+    padding: 30px 0px;
+}
+/*this is courses section*/
+.coursessection{
+    /* height: 790px; */
+    padding: 30px 0px ;
+    width: 100%;
+    background-color: #FFFDD0;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px gray;
+    margin: 20px 0px ;
+}
+.coursessection h1{
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    padding: 25px 0px;
+}
+.newcourses{
+    width: 350px;
+    /* border: 2px solid black; */
+    text-align: center;
+    /* padding: 20px; */
+}
+.newcourses p{
+    padding: 20px 0px ;
+    font-size: 18px;
+    font-weight: 400;
+}
+.newcourses button{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 8px 32px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.newcourses button a{
+    text-decoration: none;
+    color: black;
+}
+
+.newcoursesimg{
+    width: 346px;
+    height: 278px;
+    /* overflow: hidden; */
+    margin: auto;
+    border: 1px solid black;
+}
+.newcoursesimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* .coursespart{
+    display: flex;
+    justify-content: space-between;
+} */
+
+
+
+
+
+
+/* this selling overview section*/
+/* .sellingoverview{
+    background-color: #5F5F5F;
+    padding: 20px 0px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    margin: 20px 0px;
+    box-shadow: 0px 3px 6px 1px gray;
+} */
+
+/* .sellingpart1 h1{
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    margin: 20px 0px ;
+}
+.sellingpart1  p{
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    margin: 30px 0px ;
+}
+.sellingpart2 p{
+    font-weight: 300;
+    font-size: 18px;
+    text-align: center;
+} */
+
+/* .sellingoverviewtwo{
+    background-color: #FF9100;
+    padding: 20px 0px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    margin: 20px 0px;
+    box-shadow: 0px 3px 6px 1px gray;
+
+}
+.sellingpart2 .row{
+    align-items: center;
+    
+} */
+
+/* .amazoncor1 img{
+  
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.amazoncor1{
+     width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+/* 
+.amaze{
+  
+    width: 380px;
+    height: 350px;
+    
+}
+.amaze img{
+        object-fit: cover;
+    border: 1px solid white;
+    border-radius: 10px; 
+    width: 100%;
+    height: 100%;
+   
+}
+.amazoncor{
+      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.messho img{
+    object-position: left;
+} */
+
+
+
+/* this is reviews section*/
+.reviewsection{
+    width: 100%;
+    /* height: 806px; */
+    padding-bottom: 40px;
+    background-image: linear-gradient(#FF9100 50%,#5F5F5F 50%);
+    margin: 20px 0px;
+    border-radius: 20px;
+}
+
+.reviewinfo{
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 45px;
+    padding: 40px 0px;
+}
+.review{
+    width: 334px;
+    height: 487px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    padding: 30px 9px;
+}
+.review p{
+    font-size: 13px;
+    font-weight: 400;
+}
+.review h4{
+    font-weight: 500;
+    font-size: 25px;
+}
+.reviewimg{
+    margin: auto;
+    width: 159px;
+    height: 159px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.reviewimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.reviewstars{
+    color: orange;
+    font-size: 22px;
+    text-align: center;
+    margin: 10px;
+}
+.reviewstars{
+    margin: 20px 0px ;
+}
+/* .revirews{
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* why courses here section css*/
+.whycourseshere{
+    width: 100%;
+    height: 742px;
+    background-image: url(./assets/whycourses.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    margin: 20px 0px ;
+    box-shadow: 0px 0px 10px 0px gray;
+    text-align: center;
+    padding: 30px 0px;
+}
+.whycourseshere h1{
+    font-size: 45px;
+    font-weight: 600;
+    padding: 30px 0px;
+}
+.whycourseshere p{
+    font-size: 30px;
+    font-weight: 400;
+    padding: 20px 0px;
+}
+.whycard{
+    width: 272px;
+    height: 272px;
+    /* border: 2px solid black; */
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 0px gray;
+}
+.whycard h1{
+    font-size: 25px;
+    font-weight: 400;
+    padding: 20px 0px;
+}
+.whycard p{
+    font-size: 12px;
+    font-weight: 300;
+    padding: 0px;
+}
+.whycardimg{
+    margin: auto;
+    width: 90px;
+    height: 90px;
+}
+.whycardimg img{
+    width: 100%;
+    height: 100%;
+}
+
+/* trainer section css*/
+.trainer{
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    margin: 20px 0px ;
+    box-shadow: 0px 5px 10px 0px gray;
+    text-align: center;
+    padding: 30px 0px;
+}
+.trainer h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+.trainer h1 span{
+    color: #FF9100;
+}
+.trainer p{
+    font-size: 25px;
+    font-weight: 400;
+    padding: 20px 0px;
+}
+.trainerimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+        object-position: -142px 1px;
+        border-radius: 10px;
+        border: none;
+}
+.trainerimg{
+    width: 238px;
+    height: 238px;
+    margin: auto;
+}
+.train{
+    text-align: center;
+}
+.train h1{
+    font-size: 25px;
+    font-weight: 500;
+    /* margin: 20px 0px; */
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.train p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #F18B05;
+    padding: 0px;
+}
+ .im img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+        object-position: -65px 1px;
+        border-radius: 10px;
+        border: none;
+}
+
+
+/*this gallery section css*/
+.gallery{
+     /* border: 2px solid black; */
+    border-radius: 20px;
+    margin: 20px 0px ;
+    box-shadow: 0px 5px 10px 0px gray;
+    text-align: center;
+    padding: 30px 0px;
+}
+.gallery h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #FF9100;
+}
+.galleryimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+/* .galleryimg{
+    width: 350px;
+    height: 291px;
+} */
+.gal{
+    margin: 20px 0px;
+}
+
+/*this touch section css*/
+.touch{
+      /* border: 2px solid black; */
+    border-radius: 20px;
+    margin: 20px 0px ;
+    box-shadow: 0px 5px 10px 0px gray;
+    text-align: center;
+    padding: 30px 0px;
+    background-color: #FFFDD0;
+}
+.touchbox1{
+    width: 349px;
+    height: 170px;
+    /* border: 1px solid black; */
+    box-shadow: 0px 5px 5px 0px gray;
+    border-radius: 20px;
+    padding: 10px 0px ;
+    background-color: white;
+    color: #FF9100;
+}
+.touchbox1:hover{
+     color: white;
+    background-color: #FF9100;
+}
+    
+
+.touchbg{
+    color: white;
+    background-color: #FF9100;
+    width: 349px;
+    height: 170px;
+    /* border: 1px solid black; */
+    box-shadow: 0px 5px 5px 0px gray;
+    border-radius: 20px;
+    padding: 10px 0px ;
+
+}
+.touchboximg1 span{
+    font-size: 30px;
+    color: black;
+}
+.touchbg h1{
+        font-size: 30px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.touchbg p{
+        font-size: 23px;
+    font-weight: 300;
+}
+
+iframe{
+    width: 100%;
+}
+
+.touchbox1 h1{
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.touchbox1 p{
+    font-size: 23px;
+    font-weight: 300;
+}
+.contactTouch{
+    margin: 30px 0px;
+}
+.touchform{
+    text-align: left;
+}
+.touchform input{
+    font-size: 18px;
+    font-weight: 300;
+}
+.touchform input{
+    width: 100%;
+    background-color: transparent;
+          border: 1px solid #C0C0C0;
+
+    border-radius: 10px;
+    padding-left: 10px;
+    padding: 10px;
+}
+.touchform button{
+    text-align: center;
+    width: 100%;
+    background-color: #FF9100;
+      border: 1px solid #C0C0C0;
+    border-radius: 10px;
+    padding: 10px 0px ;
+    font-size: 18px ;
+    font-weight: 600;
+    color: white;
+}
+.touchmap .row{
+    align-items: center;
+}
+/*this is footer section css*/
+.footer{
+    
+   /* border: 2px solid black; */
+    border-radius: 20px;
+    margin: 20px 0px ;
+    box-shadow: 0px 5px 10px 0px gray;
+    /* text-align: center; */
+    padding: 60px 0px;
+    background-image: linear-gradient(#FFF2E2,#FF9100);
+}
+.footerbox{
+    height: 500px;
+    width: 80%;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    margin: auto;
+    padding: 40px;
+}
+.footbox1{
+    text-align: left;
+}
+.footbox1 h5{
+    font-size: 18px;
+    font-weight: 200;
+    padding: 20px 0px;
+}
+.footbox1 p{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.footbox1 h6{
+    font-size: 18px;
+    font-weight: 300;
+    /* padding: 10px 0px; */
+    margin-top: 30px  ;
+    margin-bottom: 10px;
+}
+.btn1 a{
+    text-decoration: none;
+    background-color: #F18B05;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    display: block;
+    width: 355px;
+    
+}
+.btn1 span{
+    color: black;
+    padding-right: 10px;
+}
+
+.btn2 a{
+    text-decoration: none;
+    background-color: #666666;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    width: 355px;
+    display: block;
+}
+.btn2 span{
+    color: black;
+    padding-right: 10px;
+}
+
+.footbox2 h5{
+    font-size: 18px;
+    font-weight: 200;
+    padding: 20px 0px;
+}
+.footbox2 ul li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.footbox2 ul{
+    padding-left: 0px;
+
+}
+.footbox2 ul li a{
+    text-decoration: none;
+    color: black;
+}
+.footbox2 ul li a:hover{
+    color: #FF9100;
+}
+
+/*this is contact us page*/
+.contact{
+    width: 100%;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./assets/contactus.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.contact::after{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 640px;
+    background-color: rgba(0, 0, 0, 0.353);
+
+}
+.contact h1{
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+    z-index: 1;
+}
+
