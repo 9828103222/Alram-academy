@@ -852,3 +852,152 @@ iframe{
     z-index: 1;
 }
 
+
+/*this is second about section*/
+.AAboutSection{
+    width: 100%;
+    height: 600px;
+    background-color: #F49F2F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.AAboutSection h1{
+     font-family: "Bungee Outline";
+     color: #d4d2d2;
+     /* font-weight: 400; */
+     font-size: 150px;
+}
+.AAboutmove{
+    position: absolute;
+    top: 190px;
+    text-align: center;
+}
+.AAboutmove h1{
+    font-size: 60px;
+    font-weight: 700;
+    font-family: poppins;
+    color: white;
+    margin-bottom: -10px;
+}
+.AAboutmove p{
+    font-size: 27px;
+    font-weight: 700;
+    color: white;
+
+
+}
+
+.ExpertiesSection{
+    padding: 40px 0px ;
+    margin: 40px 0px ;
+    /* border: 2px solid black; */
+}
+.ExpertiesSectionOne img{
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px 0px gray;
+}
+.ExpertiesSectionTwo{
+    padding-left: 30px;
+}
+.ExpertiesSectionTwo h1{
+    font-size: 23px;
+    font-weight: 600;
+    color: #FF9100;
+}
+.ExpertiesSectionTwo h5{
+    font-size: 32px;
+    font-weight: 600;
+}
+.ExpertiesSectionTwo p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.ExpertiesSectionLast h1{
+    font-size: 48px;
+    font-weight: 400;
+}
+.ExpertiesSectionLast p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.AdvantagesSectionOne h2{
+    font-size: 23px;
+    font-weight: 600;
+    color: #FF9100;
+}
+.AdvantagesSectionOne h1{
+    font-size: 32px;
+    font-weight: 600;
+}
+.AdvantagesSectionOne p{
+    font-size: 16px;
+    font-weight: 400;
+}
+.AdvantagesSectionList li{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+.AdvantagesSectionList i{
+    margin-right: 10px;
+}
+.AdvantagesSection{
+    padding: 30px 0px 30px 60px;
+}
+.AdvantagesSectionimgg img{
+    width: 100%;
+    border-radius: 15px 0px 0px 15px;
+}
+.AdvantagesSectionimgg{
+    padding: 0px;
+}
+
+
+.core{
+    padding: 30px 0px ;
+    text-align: center;
+}
+.core h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: #FF9100;
+}
+.core h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+.core p{
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.corecard{
+    border: 1px solid gray;
+    padding: 20px;
+    text-align: center;
+    width: 360px;
+}
+.coreimg img{
+    width: 100%;
+    height: 100%;
+}
+.coreimg{
+    margin: auto;
+    width: 93px;
+    height: 93px;
+
+}
+.coreCards h1{
+    font-size: 23px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.coreCards p{
+    font-size: 17px;
+    font-weight: 400;
+    padding-bottom: 0px;
+}
