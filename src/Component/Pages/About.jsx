@@ -5,6 +5,7 @@ import AdvantagesSectionimg from "../../assets/AdvantagesSectionimg.png";
 import coreimg1 from "../../assets/coreimg1.png";
 import coreimg2 from "../../assets/coreimg2.png";
 import coreimg3 from "../../assets/coreimg3.png";
+import teamimg from "../../assets/teamimg.png";
 
 function About() {
   return (
@@ -18,7 +19,6 @@ function About() {
           </p>
         </div>
       </div>
-
       <div className="ExpertiesSection">
         <div className="container">
           <div className="row align-items-center">
@@ -64,7 +64,6 @@ function About() {
           </div>
         </div>
       </div>
-
       <div className="AdvantagesSection">
         <div className="row align-items-center ">
           <div className="col-lg-6 col-md-6 col-sm-12">
@@ -126,6 +125,10 @@ function About() {
         </div>
       </div>
 
+
+
+
+      {/*this is core section */}
       <div className="core">
         <div className="container">
           <h2>OUR CORE VALUE</h2>
@@ -154,19 +157,71 @@ function About() {
                 </div>
                 <h1>Collaborate Securely</h1>
                 <p>
-                  Share and publish your reports with your colleagues and collaborate safely with multiple users.
+                  Share and publish your reports with your colleagues and
+                  collaborate safely with multiple users.
                 </p>
               </div>
-               <div className="col-lg-3 col-md-3 col-sm-12 corecard">
+              <div className="col-lg-3 col-md-3 col-sm-12 corecard">
                 <div className="coreimg">
                   <img src={coreimg3} alt="" />
                 </div>
                 <h1>Embedded Analytics</h1>
                 <p>
-                 Access powerful analytics tools directly within your brand environment and enhance data-driven decision making.
+                  Access powerful analytics tools directly within your brand
+                  environment and enhance data-driven decision making.
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+
+      {/* this is our team section  */}
+      <div className="team">
+        <div className="container">
+          <h2>OUR TEAM</h2>
+          <h1>Best dedicated team</h1>
+          <p>
+            We have a strong team of 700+ in-house professionals along with
+            thousands of remote experts. Each team member works with complete
+            dedication and brings deep knowledge in their specialized field.
+            Together, we deliver quality, innovation, and reliable results for
+            every project.
+          </p>
+
+          <div className="row ">
+            <div className="col-lg-4 col-md-4 col-sm-12 teamcard">
+              <div className="teamImgBack">
+                <div className="teamimg">
+                  <img src={teamimg} alt="" />
+                </div>
+              </div>
+              <h2>Israt Jahan</h2>
+              <h1>UI/UX Designer</h1>
+            </div>
+
+             <div className="col-lg-4 col-md-4 col-sm-12 teamcard">
+              <div className="teamImgBack">
+                <div className="teamimg">
+                  <img src={teamimg} alt="" />
+                </div>
+              </div>
+              <h2>Israt Jahan</h2>
+              <h1>UI/UX Designer</h1>
+            </div>
+
+             <div className="col-lg-4 col-md-4 col-sm-12 teamcard">
+              <div className="teamImgBack">
+                <div className="teamimg">
+                  <img src={teamimg} alt="" />
+                </div>
+              </div>
+              <h2>Israt Jahan</h2>
+              <h1>UI/UX Designer</h1>
+            </div>
+
+
           </div>
         </div>
       </div>

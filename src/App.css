@@ -979,6 +979,7 @@ iframe{
     padding: 20px;
     text-align: center;
     width: 360px;
+    box-shadow: 5px 5px 5px 0px gray;
 }
 .coreimg img{
     width: 100%;
@@ -1001,3 +1002,51 @@ iframe{
     font-weight: 400;
     padding-bottom: 0px;
 }
+
+.team{
+    text-align: center;
+    padding: 30px 0px;
+}
+.team h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: #FF9100;
+}
+.team h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+.team p{
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.teamImgBack{
+    background-color: #FFF5F5;
+    width: 310px ;
+    height: 391px;
+    border-radius: 10px;
+    margin: auto;
+}
+.teamimg img{
+    width: 100%;
+    height: 100%;
+}
+.teamimg{
+    margin: auto;
+    padding-top: 25px;
+    width: 136px;
+    height: 342px;
+}
+.teamcard h2{
+    font-size: 25px;
+    font-weight: 600;
+    color: #FF9100;
+    padding: 10px 0px;
+}
+.teamcard h1{
+    font-size: 25px;
+    font-weight: 400;
+}
+
