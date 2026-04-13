@@ -1050,3 +1050,72 @@ iframe{
     font-weight: 400;
 }
 
+
+/*this is courese page css section*/
+
+
+.coursess{
+    padding: 30px 0px ;
+}
+
+.courseshome{
+    padding: 60px 0px;
+}
+
+.courseshome h1{
+    font-style: 40px;
+    font-weight: bold;
+     background: linear-gradient(to right, #000000, #F18B05);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.courseshome p{
+    font-size: 25px;
+    font-weight: 400;
+    padding: 20px 0px;
+}
+.courseshome a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 400;
+    color: white;
+    border-radius: 10px;
+    background-color: #FF9100;
+    padding: 10px 20px ;
+    box-shadow: 5px 4px 4px 0px #00000040;
+}
+
+
+.choosebtns a{
+     padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 4px 4px 0px gray;
+    display: block;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+.choosebtn1  a{
+    background-color: #FF9100;
+    color: white;
+}
+.choosebtns{
+    padding: 20px 0px;
+}
+.choosecourses h1{
+    background:radial-gradient(#000000,#FF9100);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+    font-weight: 600;
+    
+}
+.choosecourses{
+    background-color: #FFFDD0;
+    padding: 30px 0px ;
+
+}

@@ -1,7 +1,6 @@
 import React from "react";
 // import homeimg from '../../assets/home.jpg'
 import About from "../../Component/Pages/About";
-import CoursesProps from "../Props/Coursesprops";
 import Reviews from "./Reviews";
 import review1 from "../../assets/review1.jpg";
 import review2 from "../../assets/review2.jpg";
@@ -12,6 +11,7 @@ import Trainer from "./Trainer";
 import Gallery from "./Gallery";
 import Touch from "./Touch";
 import aboutimg from '../../assets/aboutimg.png'
+import CoursesProps from "../Props/Coursesprops";
 
 
 function Home() {
@@ -64,7 +64,7 @@ function Home() {
                 </div>
               </div>
           </div>
-      <CoursesProps />
+      <CoursesProps/>
       <WhyCoursesHere/>
       <Trainer/>
       <Reviews />

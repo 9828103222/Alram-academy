@@ -11,10 +11,10 @@ function Footer() {
                 <div className="footbox1">
                     <h5>Contact us</h5>
                 <p>Let’s Discuss Your<br/> Vision With Us</p>
-                <div className="btn1"><a href=""><span><i class="fa-solid fa-phone"></i></span>Schedule a call now</a></div>
+                <div className="btn1"><a href=""><span><i className="fa-solid fa-phone"></i></span>Schedule a call now</a></div>
                 
                 <h6>OR EMAIL US AT</h6>
-                <div className="btn2"><a href=""><span><i class="fa-solid fa-envelope"></i></span>alramacademy@gmail.com</a></div>
+                <div className="btn2"><a href=""><span><i className="fa-solid fa-envelope"></i></span>alramacademy@gmail.com</a></div>
                 
                 </div>
               </div>

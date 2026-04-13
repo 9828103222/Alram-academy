@@ -28,7 +28,7 @@ function Navbar() {
                 <li className="nav-item"><Link className="nav-link" to="/">HOME</Link></li>
                 <li className="nav-item"><Link className="nav-link" to="/about">ABOUT US</Link></li>
                 <li className="nav-item"><Link className="nav-link" to="/courses">COURSES</Link></li>
-                <li className="nav-item"><Link className="nav-link" to="/reviews">Reviews</Link></li>
+                <li className="nav-item"><Link className="nav-link" to="/reviews">REVIEWS</Link></li>
                 <li className="nav-item"><Link className="nav-link" to="/portfolio">PORTFOLIO</Link></li>
               </ul>
             </div>
@@ -42,7 +42,7 @@ function Navbar() {
         </div>
       </nav>
        <div className="whatsappicon">
-        <a href="https://wa.me/919828103222" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://wa.me/919828103222" target="_blank"><i className="fa-brands fa-whatsapp"></i></a>
       </div>
     </>
   )
