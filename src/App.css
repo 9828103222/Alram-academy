@@ -1119,3 +1119,152 @@ iframe{
     padding: 30px 0px ;
 
 }
+
+
+.choosecoursecards1{
+    border-radius: 25px;
+    background: linear-gradient(#4258FF,#FFFFFF);
+    box-shadow: 0px 4px 4px 0px gray;
+    padding: 40px 20px;
+    margin: 40px 0px;
+    width: 350px;
+}
+.choosecoursecards h1{
+      background: none;
+    -webkit-text-fill-color: white;
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+}
+.choosecoursecards p{
+    font-style: 22px;
+    font-weight: 500;
+    color: white;
+    padding-top: 20px;
+}
+.choosecoursecards a{
+    border: 1px solid white;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px 20px ;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 800;
+    margin-left: 40px;
+    box-shadow: 5px 5px 5px 0px gray;
+}
+.choosecoursecards1 a{
+    background: linear-gradient(#FFFFFF,#4258FF);
+
+}
+
+.choosecoursecards2{
+    border-radius: 25px;
+    background: linear-gradient( #FF9100,#FFFFFF);
+    box-shadow: 0px 4px 4px 0px gray;
+    padding: 40px 20px;
+    margin: 40px 0px;
+    width: 350px;
+}
+
+
+.choosecoursecards2 a{
+    background: linear-gradient(#FFFFFF,#F18B05);
+}
+
+.choosecoursecards3{
+    border-radius: 25px;
+    background: linear-gradient( #7C7C7C ,#FFFFFF);
+    box-shadow: 0px 4px 4px 0px gray;
+    padding: 40px 20px;
+    margin: 40px 0px;
+    width: 350px;
+}
+
+.choosecoursecards3 a{
+    background: linear-gradient(#FFFFFF,#666666);
+}
+
+.choosecoursecards img{
+    height: 314px;
+    object-fit: cover;
+    padding: 30px 0px;
+}
+.choosecoursecards2 img{
+    margin: auto;
+}
+
+/*this is digitial marketing section css*/
+.digitalmarketingpage{
+    background-color: #FFFDD0;
+    padding: 20px;
+    margin: 30px 0px ;
+}
+.digitalmarketingpage h1{
+    font-size: 70px;
+    font-weight: 500;
+    background:radial-gradient(#FF9100, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
+
+}
+.digitalmarketingpage ol li{
+    font-size: 28px;
+    font-weight: 300;
+}
+
+/*this is ecommerce section css*/
+.ecommercepage{
+    background-color: #FFFDD0;
+    padding: 20px;
+    margin: 30px 0px ;
+}
+
+.ecommercepage h1{
+    font-size: 70px;
+    font-weight: 500;
+    background:radial-gradient(#FF9100, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
+
+}
+.ecommercepage ul li{
+    font-size: 28px;
+    font-weight: 300;
+    padding: 10px 0px;
+}
+.ecommercepage img{
+    width: 40px;
+    height: 40px;
+    margin-left:5px;
+    object-fit: cover;
+    border-radius: 50%;
+    object-position: center;
+    border: 1px solid black;
+
+}
+
+/*this web page section css*/
+.webpage{
+    background-color: #FFFDD0;
+    padding: 20px;
+    margin: 30px 0px ;
+}
+.webpage h1{
+    font-size: 70px;
+    font-weight: 500;
+    background:radial-gradient(#FF9100, #000000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: underline;
+
+}
+.webpage ul li{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+

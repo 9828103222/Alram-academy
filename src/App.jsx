@@ -11,6 +11,9 @@ import CoursesProps from './Component/Props/Coursesprops.jsx';
 import Reviews from './Component/Pages/Reviews.jsx'
 import ReviewsProps from './Component/Props/ReviewsProps.jsx'
 import Footer from './Component/Footer.jsx'
+import DigitalMarketingInfo from './Component/course pages/DigitalMarketingInfo.jsx'
+import EcommerceInfo from './Component/course pages/EcommerceInfo.jsx'
+import WebDevelopmentInfo from './Component/course pages/WebDevelopmentInfo.jsx'
 // import { useEffect } from "react";
 
 
@@ -57,6 +60,7 @@ function App() {
     <Route path='/contact' element={<Contact/>}/>
 
   </Routes>
+  
   <Footer/>
     </>
   )

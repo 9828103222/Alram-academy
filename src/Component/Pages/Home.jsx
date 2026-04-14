@@ -12,6 +12,7 @@ import Gallery from "./Gallery";
 import Touch from "./Touch";
 import aboutimg from '../../assets/aboutimg.png'
 import CoursesProps from "../Props/Coursesprops";
+import ReviewsProps from "../Props/ReviewsProps";
 
 
 function Home() {
@@ -67,7 +68,7 @@ function Home() {
       <CoursesProps/>
       <WhyCoursesHere/>
       <Trainer/>
-      <Reviews />
+      <ReviewsProps/>
       <Gallery/>
       <Touch/>
       
