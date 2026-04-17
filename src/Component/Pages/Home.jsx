@@ -36,13 +36,36 @@ function Home() {
              </div>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 middd">
-              <img className="homeimg1" src={review1} alt="" />
-              <img className="homeimg2" src={review2} alt="" />
-              <img className="homeimg3" src={review3} alt="" />
-              <img className="homeimg4" src={review3} alt="" />
-              <img className="homeimg5" src={review2} alt="" />
-              <img className="homeimg6" src={review1} alt="" />
-              <img className="homeimg7" src={review2} alt="" />
+              <div className="homeimg1">
+              <img  src={review1} alt="" />
+              </div>
+
+              <div className="homeimg2">
+              <img  src={review2} alt="" />
+              </div>
+
+               <div className="homeimg3">
+              <img  src={review3} alt="" />
+              </div>
+
+              <div className="homeimg4">
+              <img  src={review3} alt="" />
+              </div>
+
+              <div className="homeimg5">
+              <img  src={review2} alt="" />
+              </div>
+
+              <div className="homeimg6">
+              <img  src={review1} alt="" />
+              </div>
+
+              <div className="homeimg7">
+              <img  src={review2} alt="" />
+              </div>
+
+
+              
             </div>
           </div>
         </div>
@@ -52,15 +75,39 @@ function Home() {
        <div className="aboutsection">
               <div className="container">
                 <div className="row">
-                  <div className="col-lg-8 col-mg-6 col-sm-12">
-                    <h1>ABOUT US</h1>
+                  <div className="col-lg-8 col-mg-6 col-sm-12 ">
+                      <div
+    data-aos="fade-right"
+    data-aos-offset="0"
+    data-aos-delay="0"
+    data-aos-duration="0"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center"
+  >
+    <h1>ABOUT US</h1>
                     <p>Alram Academy is a modern learning platform dedicated to providing high-quality education to every student. We focus on smart classes, experienced faculty, and practical learning methods to help learners become future-ready. Our goal goes beyond completing the syllabus — we aim to build confidence, skills, and real-life understanding in every student. At Alram Academy, we offer a safe, supportive, and inspiring environment where learners of all ages can grow, achieve their goals, and unlock their true potential.</p>
                     <button>Contact us</button>
+  </div>
+                    
                   </div>
                   <div className="col-lg-4 col-mg-6 col-sm-12">
-                      <div className="aboutimg">
+                      <div
+    data-aos="fade-left"
+    data-aos-offset="0"
+    data-aos-delay="0"
+    data-aos-duration="0"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center"
+  >
+    <div className="aboutimg">
                         <img src={aboutimg} alt="" />
                       </div>
+  </div>
+                      
                   </div>
                 </div>
               </div>

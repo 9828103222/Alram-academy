@@ -23,12 +23,15 @@ function WhyCoursesHere() {
             <div className="row">
                 
             <div className="col-lg-3">
-              <WhyCards 
+         
+    <WhyCards 
               whyimg={whycard1}
               whyname="Time Flexibility"
               whypara="Learn anytime, anywhere with flexible class 
 schedules designed for your convenience."
               />
+
+              
             </div>
             <div className="col-lg-3">
               <WhyCards

@@ -142,6 +142,7 @@
    
     .homebtns{
         flex-direction: column;
+        gap: 8px;
     }
     .homebtn2{
         margin-top: 10px;

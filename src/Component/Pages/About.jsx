@@ -6,8 +6,34 @@ import coreimg1 from "../../assets/coreimg1.png";
 import coreimg2 from "../../assets/coreimg2.png";
 import coreimg3 from "../../assets/coreimg3.png";
 import teamimg from "../../assets/teamimg.png";
+import { useEffect, useState } from "react";
 
 function About() {
+    const [count, setCount] = useState(0);
+  const target = 50000;
+
+   const formatNumber = (num) => {
+    if (num >= 1000) {
+      return (num / 1000).toFixed(0) + "K";
+    }
+    return num;
+  };
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCount((prev) => {
+        if (prev >= target) {
+          clearInterval(interval);
+          return target;
+        }
+        return prev + 500;
+      });
+    }, 20);
+
+    return () => clearInterval(interval);
+  }, []);
+
+
   return (
     <>
       <div className="AAboutSection">
@@ -46,15 +72,15 @@ function About() {
                 <div className="ExpertiesSectionLast">
                   <div className="row justify-content-between">
                     <div className="col-lg-3 col-md-3 col-sm-3 ">
-                      <h1>50k+</h1>
+                      <h1 >{formatNumber(count)}+</h1>
                       <p>Monthly Active Users</p>
                     </div>
                     <div className="col-lg-3 col-md-3 col-sm-3">
-                      <h1>50k+</h1>
+                      <h1>{formatNumber(count)}</h1>
                       <p>Monthly Active Users</p>
                     </div>
                     <div className="col-lg-3 col-md-3 col-sm-3">
-                      <h1>50k+</h1>
+                      <h1>{formatNumber(count)}</h1>
                       <p>Monthly Active Users</p>
                     </div>
                   </div>
@@ -141,7 +167,9 @@ function About() {
           </p>
           <div className="coreCards">
             <div className="row justify-content-between">
-              <div className="col-lg-3 col-md-3 col-sm-12 corecard">
+              <div className="col-lg-3 col-md-3 col-sm-12 corecard" 
+              data-aos="fade-right"
+              data-aos-delay="100">
                 <div className="coreimg">
                   <img src={coreimg1} alt="" />
                 </div>
@@ -151,7 +179,9 @@ function About() {
                   analyze your datasets effortlessly.
                 </p>
               </div>
-              <div className="col-lg-3 col-md-3 col-sm-12 corecard">
+              <div className="col-lg-3 col-md-3 col-sm-12 corecard"
+              data-aos="fade-right"
+              data-aos-delay="300">
                 <div className="coreimg">
                   <img src={coreimg2} alt="" />
                 </div>
@@ -161,7 +191,9 @@ function About() {
                   collaborate safely with multiple users.
                 </p>
               </div>
-              <div className="col-lg-3 col-md-3 col-sm-12 corecard">
+              <div className="col-lg-3 col-md-3 col-sm-12 corecard"
+              data-aos="fade-right"
+              data-aos-delay="500">
                 <div className="coreimg">
                   <img src={coreimg3} alt="" />
                 </div>
@@ -193,9 +225,24 @@ function About() {
           <div className="row ">
             <div className="col-lg-4 col-md-4 col-sm-12 teamcard">
               <div className="teamImgBack">
-                <div className="teamimg">
+                <div  data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+    data-aos-offset="0"
+    data-aos-delay="0"
+    data-aos-duration="0"
+    // data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center">
+<div className="teamimg">
                   <img src={teamimg} alt="" />
                 </div>
+
+</div>
+                
+                
+
+
               </div>
               <h2>Israt Jahan</h2>
               <h1>UI/UX Designer</h1>

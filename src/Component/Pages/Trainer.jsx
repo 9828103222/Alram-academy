@@ -21,9 +21,13 @@ function Trainer() {
           <div className="container">
             <div className="row">
               <div className="col-lg-3 col-md-6 col-sm-12 train">
+
+
                 <div className="trainerimg">
                   <img src={trainer1} alt="" />
                 </div>
+
+                
                 <h1>Ritu Sharma</h1>
                 <p>Ecommerce</p>
               </div>
