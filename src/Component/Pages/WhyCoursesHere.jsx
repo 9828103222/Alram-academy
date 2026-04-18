@@ -10,8 +10,11 @@ function WhyCoursesHere() {
   return (
     <>
       <div className="whycourseshere">
-        <div className="container">
+        <div className="container ">
+          <div className="why">
+
           <h1>WHY COURSE HERE?</h1>
+          </div>
           <p>
             Because it teaches real, industry-ready skills with simple,
             practical lessons. You learn through hands-on projects, updated

@@ -9,6 +9,40 @@
   overflow-y: auto;
 }
 
+
+/* inner dot */
+.cursor {
+  position: fixed;
+  width: 8px;
+  height: 8px;
+  background: black;
+  border-radius: 50%;
+
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+/* outer ring */
+.cursor-border {
+  position: fixed;
+  width: 35px;
+  height: 35px;
+  border: 2px solid black;
+  border-radius: 50%;
+
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 9998;
+
+  transition: background 0.3s, border 0.3s;
+}
+
+
+
+
+
+
 .navpart1 {
   width: 200px;
   height: 90px;
@@ -72,6 +106,7 @@
   border-radius: 50%;
   width: 70px;
   height: 70px;
+  z-index: 999;
 }
 .whatsappicon a {
   color: green;
@@ -82,46 +117,76 @@
   background-image: linear-gradient(#fbfbfb, #fff2e2 30%, #ff9100 80%);
   box-shadow: 0px 0px 8px 2px gray;
 }
-.homebtn1 a {
-  text-decoration: none;
-  color: white;
-}
 .homebtn1 {
+  position: relative;
+  overflow: hidden;
   font-size: 18px;
   font-weight: 700;
-  text-decoration: none;
   color: white;
   background-image: linear-gradient(#000000, #666666);
   border-radius: 10px;
   padding: 8px 32px;
   margin-top: 40px;
 }
-.homebtn1:hover {
-  a {
-    color: white;
-  }
-  background-image: linear-gradient(#f18b05);
+
+/* pseudo element banana zaruri hai */
+.homebtn1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: rgba(255,255,255,0.4);
+  transform: skewX(25deg);
 }
+
+/* hover par animation */
+.homebtn1:hover::after {
+  animation: shine 0.8s forwards;
+}
+
+@keyframes shine {
+  100% {
+    left: 150%;
+  }
+}
+.homebtn1 a{
+  text-decoration: none;
+  color: white;
+}
+
 
 .homebtn2 {
   font-size: 18px;
   font-weight: 700;
-  background-color: white;
   border-radius: 10px;
   padding: 8px 32px;
   margin-top: 40px;
+
+  /* gradient add karo */
+  background: linear-gradient(90deg, orange ,white , black, orange, white);
+  background-size: 300%;
 }
+
 .homebtn2 a {
   color: black;
   text-decoration: none;
 }
 
 .homebtn2:hover {
-  a {
-    color: white;
-  }
-  background-color: #f18b05;
+  animation: gradientMove 2s linear infinite;
 }
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 300%;
+  }
+}
+
 
 .homebtns {
   display: flex;
@@ -169,19 +234,34 @@
   left: 200px;
   border-radius: 50%;
   border: 5px solid white;
-  overflow: hidden;
 }
 .homeimg1 img {
   height: 100%;
   width: 100%;
   border-radius: 50%;
+  animation: rotate 3s infinite linear;
+   animation-delay: 0s;
 
-  transition: transform 0.8s ease;
 }
-.homeimg1 img:hover {
-  transform: scale(1.1);
-  transition: 0.8s;
+@keyframes rotate {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+  
 }
+@keyframes rotatee {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(-360deg);
+  }
+  
+}
+
 
 .homeimg2 {
   position: absolute;
@@ -191,17 +271,14 @@
   width: 116px;
   border: 5px solid white;
   border-radius: 50%;
-  overflow: hidden;
 }
 .homeimg2 img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  transition: transform 0.8s ease;
-}
-.homeimg2 img:hover {
-  transform: scale(1.1);
-  transition: 0.8s;
+  animation: rotatee 3s infinite linear;
+   animation-delay: 0.5s;
+
 }
 
 .homeimg3 {
@@ -212,17 +289,15 @@
   width: 116px;
   border: 5px solid white;
   border-radius: 50%;
-  overflow: hidden;
+  
 }
 .homeimg3 img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  transition: transform 0.8s ease;
-}
-.homeimg3 img:hover {
-  transform: scale(1.1);
-  transition: 0.8s;
+  animation: rotate 3s infinite linear;
+   animation-delay: 1s;
+
 }
 
 .homeimg4 {
@@ -233,17 +308,13 @@
   width: 116px;
   border: 5px solid white;
   border-radius: 50%;
-  overflow: hidden;
 }
 .homeimg4 img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  transition: transform 0.8s ease;
-}
-.homeimg4 img:hover {
-  transform: scale(1.1);
-  transition: 0.8s;
+  animation: rotatee 3s infinite linear;
+ animation-delay: 1.5s;
 }
 
 .homeimg5 {
@@ -254,17 +325,13 @@
   width: 152px;
   border: 5px solid white;
   border-radius: 50%;
-  overflow: hidden;
 }
 .homeimg5 img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  transition: transform 0.8s ease;
-}
-.homeimg5 img:hover {
-  transform: scale(1.1);
-  transition: 0.8s;
+  animation: rotate 3s infinite linear;
+ animation-delay: 2s;
 }
 
 .homeimg6 {
@@ -275,17 +342,13 @@
   width: 138px;
   border: 5px solid white;
   border-radius: 50%;
-  overflow: hidden;
 }
 .homeimg6 img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  transition: transform 0.8s ease;
-}
-.homeimg6 img:hover {
-  transform: scale(1.1);
-  transition: 0.8s;
+  animation: rotatee 3s infinite linear;
+ animation-delay: 2.5s;
 }
 
 .homeimg7 {
@@ -294,27 +357,65 @@
   left: 280px;
   height: 157px;
   width: 157px;
-  border: 5px solid white;
   border-radius: 50%;
-  overflow: hidden;
+   border: 5px solid white;
+
 }
 .homeimg7 img {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  transition: transform 0.8s ease;
+  animation: rotate 3s infinite linear;
+ animation-delay: 3s;
 }
+
+
+
+.homeimg1 img:hover,
+.homeimg2 img:hover,
+.homeimg3 img:hover,
+.homeimg4 img:hover,
+.homeimg5 img:hover,
+.homeimg6 img:hover,
 .homeimg7 img:hover {
-  transform: scale(1.1);
-  transition: 0.8s;
+  animation-play-state: paused;
 }
+/* img:hover {
+  animation: none;
+  transform: rotate(0deg);
+} */
+
+
+
+
+
 
 /*  this is about section css */
 .aboutsection h1 {
   font-weight: 400;
   font-size: 40px;
   font-family: "Reggae One";
+  animation: fadeup 3s infinite;
 }
+@keyframes fadeup {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
+
+
+
+
+
 .aboutsection p {
   font-weight: 400;
   font-size: 16px;
@@ -323,6 +424,8 @@
   padding: 20px 0px;
 }
 .aboutsection button {
+  position: relative;
+  overflow: hidden;
   border: 1px solid black;
   border-radius: 5px;
   padding: 8px 20px;
@@ -330,11 +433,39 @@
   font-weight: bold;
   color: white;
   background-image: linear-gradient(to left, #f18b05 10%, #000000 60%);
+  transition: color 0.4s;
+  z-index: 1;   /* 🔥 important */
 }
-.aboutsection button:hover {
-  background-image: linear-gradient(#f18b05);
+
+.aboutsection button a {
   color: white;
+  text-decoration: none;
+  position: relative;
+  z-index: 2;   /* 🔥 text sabse upar */
 }
+
+/* before */
+.aboutsection button::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #f18b05;
+  transition: 0.4s;
+  z-index: 1;   /* 🔥 text ke niche */
+}
+
+/* hover */
+.aboutsection button:hover a {
+  color: black;
+}
+
+.aboutsection button:hover::before {
+  width: 100%;
+}
+
 .aboutimg img {
   width: 100%;
   height: 100%;
@@ -369,7 +500,25 @@
   font-weight: 600;
   text-align: center;
   padding: 25px 0px;
+
+  background: linear-gradient(90deg, orange, white, black, rgb(143, 95, 6));
+  background-size: 300%;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: gradient 4s linear infinite;
 }
+
+@keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 300%;
+  }
+}
+
 .newcourses {
   width: 350px;
   /* border: 2px solid black; */
@@ -381,16 +530,22 @@
   font-size: 18px;
   font-weight: 400;
 }
+
 .newcourses button {
   border: 1px solid black;
   border-radius: 10px;
   padding: 8px 32px;
   font-size: 18px;
   font-weight: 700;
+   transition: transform 0.6s;
 }
 .newcourses button a {
   text-decoration: none;
   color: black;
+}
+.newcourses button:hover{
+  transform: rotateY(360deg);
+  transition: 0.6s;
 }
 
 .newcoursesimg {
@@ -505,13 +660,30 @@
   border-radius: 20px;
 }
 
-.reviewinfo {
+.reviewinfo h1 {
   text-align: center;
-  color: white;
+  color: #fff;
   font-weight: 400;
   font-size: 45px;
   padding: 40px 0px;
+
+  animation: neonpulse 2s ease-in-out infinite alternate;
 }
+
+@keyframes neonpulse {
+  from {
+    text-shadow: none; /* 👈 bilkul no glow */
+  }
+
+  to {
+    text-shadow:
+      0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 40px #fff,
+      0 0 80px #fff;
+  }
+}
+
 .review {
   width: 334px;
   height: 487px;
@@ -569,11 +741,41 @@
   text-align: center;
   padding: 30px 0px;
 }
-.whycourseshere h1 {
+.why h1 {
   font-size: 45px;
   font-weight: 600;
   padding: 30px 0px;
+  text-align: center;
+
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid black;
+
+  /* 👇 yaha length control kar */
+  width: 20ch;
+
+  animation: typing 4s steps(20) infinite alternate,
+             blink 0.6s infinite;
 }
+
+/* typing + reverse */
+@keyframes typing {
+  from {
+    width: 0ch;
+  }
+  to {
+    width: 20ch;
+  }
+}
+
+/* cursor blink */
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
 .whycourseshere p {
   font-size: 30px;
   font-weight: 400;
@@ -659,6 +861,8 @@
   margin-top: 20px;
   margin-bottom: 0px;
 }
+
+
 .train p {
   font-size: 18px;
   font-weight: 600;
@@ -684,11 +888,23 @@
   padding: 30px 0px;
   border: 2px solid aqua;
 }
-.gallery h1 {
+.gallery h1 span {
   font-size: 40px;
   font-weight: 600;
   color: #ff9100;
+   display: inline-block;
+  animation: wave 1.2s infinite;
 }
+
+@keyframes wave {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
 .galleryimg {
   position: relative;
   border-radius: 10px;
@@ -1371,7 +1587,39 @@ padding: 10px;
   background-color: #fffdd0;
   padding: 20px;
   margin: 30px 0px;
+   transform-origin: top center;
+   will-change: transform;
 }
+
+
+
+/* AOS trigger */
+[data-aos="hang"].aos-animate {
+  animation: hang 1.2s ease forwards;
+}
+
+/* hanging animation */
+@keyframes hang {
+  0% {
+    transform: rotate(-15deg);
+  }
+  30% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(-6deg);
+  }
+  80% {
+    transform: rotate(3deg);
+  }
+  100% {
+    transform: rotate(0deg); /* 👈 seedha ho gaya */
+  }
+}
+
+
+
+
 .digitalmarketingpage h1 {
   font-size: 70px;
   font-weight: 500;
@@ -1390,7 +1638,13 @@ padding: 10px;
   background-color: #fffdd0;
   padding: 20px;
   margin: 30px 0px;
+  
 }
+
+
+
+
+
 
 .ecommercepage h1 {
   font-size: 70px;

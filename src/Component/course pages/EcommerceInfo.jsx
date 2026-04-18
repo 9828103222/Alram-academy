@@ -16,7 +16,7 @@ import ec13 from "../../assets/ec13.png"
 function EcommerceInfo() {
   return (
     <>
-      <div className="ecommercepage">
+      <div className="ecommercepage" >
         <h1>Courses & Services Info:</h1>
         <ul>
           <li>Domestic Course: 

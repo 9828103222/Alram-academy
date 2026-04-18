@@ -10,7 +10,13 @@ function Gallery() {
   return (
     <>
       <div className="gallery">
-        <h1>Gallery</h1>
+         <h1>
+    {"Gallery".split("").map((char, i) => (
+      <span key={i} style={{ animationDelay: `${i * 0.1}s` }}>
+        {char}
+      </span>
+    ))}
+  </h1>
         <div className="container">
             <div className="row">
                 <div className="col-lg-4 col-md-6 col-sm-12 gal">

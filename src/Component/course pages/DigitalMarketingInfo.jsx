@@ -3,7 +3,7 @@ import React from 'react'
 function DigitalMarketingInfo() {
   return (
     <>
-     <div className="digitalmarketingpage">
+     <div className="digitalmarketingpage" data-aos="hang">
       <h1>DIGITAL MARKETING:</h1>
       <ol>
         <li>Digital Marketing Basics & Website Development</li>

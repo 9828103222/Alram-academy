@@ -15,6 +15,8 @@ import DigitalMarketingInfo from './Component/course pages/DigitalMarketingInfo.
 import EcommerceInfo from './Component/course pages/EcommerceInfo.jsx'
 import WebDevelopmentInfo from './Component/course pages/WebDevelopmentInfo.jsx'
 // import { useEffect } from "react";
+import Cursor from "./Component/Cursor.jsx";
+
 
 
 
@@ -49,6 +51,7 @@ function App() {
 
   return (
     <>
+     <Cursor />  
   <Navbar/>
 
   <Routes>

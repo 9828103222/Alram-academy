@@ -88,7 +88,7 @@ function Home() {
   >
     <h1>ABOUT US</h1>
                     <p>Alram Academy is a modern learning platform dedicated to providing high-quality education to every student. We focus on smart classes, experienced faculty, and practical learning methods to help learners become future-ready. Our goal goes beyond completing the syllabus — we aim to build confidence, skills, and real-life understanding in every student. At Alram Academy, we offer a safe, supportive, and inspiring environment where learners of all ages can grow, achieve their goals, and unlock their true potential.</p>
-                    <button>Contact us</button>
+                    <button><a href="">Contact us</a></button>
   </div>
                     
                   </div>
