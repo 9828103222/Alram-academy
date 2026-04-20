@@ -813,20 +813,27 @@
 
 /* trainer section css*/
 .trainer {
-  /* border: 2px solid black; */
   border-radius: 20px;
   margin: 20px 0px;
   box-shadow: 0px 5px 10px 0px gray;
   text-align: center;
   padding: 30px 0px;
 }
+
 .trainer h1 {
   font-size: 40px;
   font-weight: 600;
 }
+
 .trainer h1 span {
+  color: black;
+  transition: color 0.3s;
+}
+
+.trainer h1 span.active {
   color: #ff9100;
 }
+
 .trainer p {
   font-size: 25px;
   font-weight: 400;

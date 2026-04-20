@@ -9,7 +9,9 @@ function Navbar() {
         <div className="container">
 
           <div className="navpart1 navbar-brand">
+            <Link to="/">
             <img src={logo} alt="" />
+            </Link>
           </div>
 
           <button 
@@ -25,7 +27,7 @@ function Navbar() {
 
             <div className="navpart2 mx-auto">
               <ul className="navbar-nav">
-                <li className="nav-item"><Link className="nav-link" to="/">HOME</Link></li>
+                <li className="nav-item"><Link className="nav-link" to="/home">HOME</Link></li>
                 <li className="nav-item"><Link className="nav-link" to="/about">ABOUT US</Link></li>
                 <li className="nav-item"><Link className="nav-link" to="/courses">COURSES</Link></li>
                 <li className="nav-item"><Link className="nav-link" to="/reviews">REVIEWS</Link></li>
