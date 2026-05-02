@@ -3,7 +3,7 @@ import React from 'react'
 function WebDevelopmentInfo() {
   return (
     <>
-     <div className="webpage">
+     <div className="webpage" data-aos="hang">
       <h1>Courses & Services Info:</h1>
       <ul>
         <li>WEB DESIGN:</li>

@@ -17,7 +17,7 @@ function Touch() {
             <div className="col-lg-4 col-md-4 col-sm-12 ">
                 <div className="touchbg">
                     <div className="touchboximg1">
-                        <span><i class="fa-solid fa-location-dot"></i></span>
+                        <span><i className="fa-solid fa-location-dot"></i></span>
                     </div>
                     <h1>Address</h1>
                     <p>Shyam nagar Sodala Jaipur</p>
@@ -27,7 +27,7 @@ function Touch() {
             <div className="col-lg-4 col-md-4 col-sm-12">
                 <div className="touchbox1">
                     <div className="touchboximg1">
-                        <span><i class="fa-solid fa-phone-volume"></i></span>
+                        <span><i className="fa-solid fa-phone-volume"></i></span>
                     </div>
                     <h1>Contact</h1>
                     <p>Shyam nagar Sodala Jaipur</p>
@@ -37,7 +37,7 @@ function Touch() {
             <div className="col-lg-4 col-md-4 col-sm-12">
                 <div className="touchbox1">
                     <div className="touchboximg1">
-                        <span><i class="fa-solid fa-envelope"></i></span>
+                        <span><i className="fa-solid fa-envelope"></i></span>
                     </div>
                     <h1>Email</h1>
                     <p>Alramacademy@gmail.com</p>

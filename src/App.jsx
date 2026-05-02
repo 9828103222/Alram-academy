@@ -16,6 +16,7 @@ import EcommerceInfo from './Component/course pages/EcommerceInfo.jsx'
 import WebDevelopmentInfo from './Component/course pages/WebDevelopmentInfo.jsx'
 // import { useEffect } from "react";
 import Cursor from "./Component/Cursor.jsx";
+import ScrollToTop from "./Component/ScrollToTop.jsx";
 
 
 
@@ -51,6 +52,7 @@ function App() {
 
   return (
     <>
+    <ScrollToTop />
      <Cursor />  
   <Navbar/>
 

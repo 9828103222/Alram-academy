@@ -9,8 +9,32 @@ import choosecoursecard6 from "../../assets/choosecoursecard6.png";
 import DigitalMarketingInfo from "../course pages/DigitalMarketingInfo";
 import EcommerceInfo from "../course pages/EcommerceInfo";
 import WebDevelopmentInfo from "../course pages/WebDevelopmentInfo";
+import { useEffect } from "react";
 
 function Courses() {
+
+
+  useEffect(() => {
+    const hash = window.location.hash;
+
+    if (hash) {
+      const id = hash.replace("#", "");
+      const el = document.getElementById(id);
+
+      if (el) {
+        setTimeout(() => {
+          el.scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+          });
+        }, 100); // thoda delay (important)
+      }
+    } else {
+      window.scrollTo(0, 0);
+    }
+  }, []);
+
+
   return (
     <>
       <div className="AAboutSection">
@@ -49,7 +73,7 @@ function Courses() {
               Course
             </h1>
 
-            <div className="choosebtns">
+            <div  id="target-course" className="choosebtns">
               <div className="row justify-content-between">
                 <div className="col-lg-2 col-md-2 col-sm-6 choosebtn1">
                   <a href="">All Courses</a>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function NewCoursesProps(props) {
   return (
@@ -21,7 +22,7 @@ function NewCoursesProps(props) {
 
        
         <p>{props.newpara}</p>
-<button><a href="">View Courses</a></button>
+<button><Link to="/courses#target-course">View Courses</Link></button>
       </div>
     </>
   )

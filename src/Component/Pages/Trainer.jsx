@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import trainer1 from "../../assets/trainer1.jpg";
-import trainer2 from "../../assets/trainer2.jpg";
-import trainer3 from "../../assets/trainer3.jpg";
+import trainer1 from "../../assets/trainer1.png";
+import trainer2 from "../../assets/trainer2.png";
+import trainer3 from "../../assets/trainer3.png";
 import trainer4 from "../../assets/trainer4.jpg";
 
 function Trainer() {
@@ -56,32 +56,32 @@ function Trainer() {
                 <div className="trainerimg">
                   <img src={trainer1} alt="" />
                 </div>
-                <h1>Ritu Sharma</h1>
-                <p>Ecommerce</p>
+                <h1>Somesh Sharma</h1>
+                <p>Web Development</p>
               </div>
 
               <div className="col-lg-3 col-md-6 col-sm-12 train">
                 <div className="trainerimg im">
                   <img src={trainer2} alt="" />
                 </div>
-                <h1>Rahul Choudhary</h1>
-                <p>Web Development</p>
+                <h1>Prashant Kaushik</h1>
+                <p>Bussiness Coach</p>
               </div>
 
               <div className="col-lg-3 col-md-6 col-sm-12 train">
                 <div className="trainerimg im">
                   <img src={trainer3} alt="" />
                 </div>
-                <h1>Lavina Kumawat</h1>
-                <p>Graphic Designer</p>
+                <h1>Taslim Khan</h1>
+                <p>Digital Marketing</p>
               </div>
 
               <div className="col-lg-3 col-md-6 col-sm-12 train">
                 <div className="trainerimg">
                   <img src={trainer4} alt="" />
                 </div>
-                <h1>Somesh Sharma</h1>
-                <p>Digital Marketing</p>
+                <h1>Parmeshwar Mali</h1>
+                <p>Ecommerce Trainer</p>
               </div>
             </div>
           </div>
