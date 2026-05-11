@@ -17,6 +17,8 @@ import WebDevelopmentInfo from './Component/course pages/WebDevelopmentInfo.jsx'
 // import { useEffect } from "react";
 import Cursor from "./Component/Cursor.jsx";
 import ScrollToTop from "./Component/ScrollToTop.jsx";
+import OurTeams from './Component/Pages/OurTeams.jsx'
+import PrivacyPolicy from './Component/Pages/PrivacyPolicy.jsx'
 
 
 
@@ -63,7 +65,10 @@ function App() {
     <Route path='/courses' element={<Courses/>}/>
     <Route path='/reviews' element={<Reviews/>}/>
     <Route path='/portfolio' element={<Portfolio/>}/>
+    <Route path='/ourteams' element={<OurTeams/>}/>
     <Route path='/contact' element={<Contact/>}/>
+    <Route path='/ourteam' element={<OurTeams/>}/>
+    <Route path='/privacypolicy' element={<PrivacyPolicy/>}/>
 
   </Routes>
   

@@ -36,6 +36,7 @@ function Footer() {
 <li><Link to="/courses">Courses</Link></li>
 <li><Link to="/reviews">Reviews</Link></li>
 <li><Link to="/portfolio">Gallery</Link></li>
+<li><Link to="/ourteam">Our Team</Link></li>
 <li><Link to="/contact">Contact Us</Link></li>
 
                     
@@ -47,8 +48,7 @@ function Footer() {
                  <h5>Information</h5>
                 <ul>
                     <li><a href="">Terms of Services</a></li>
-                    <li><a href="">Privacy Policy</a></li>
-                    <li><a href="">Cookies Settings</a></li>
+                    <li><Link to="/privacypolicy">Privacy Policy</Link></li>
                     
                 </ul>
                </div>

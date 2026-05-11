@@ -210,7 +210,7 @@ function About() {
 
 
       {/* this is our team section  */}
-      <div className="team">
+      {/* <div className="team">
         <div className="container">
           <h2>OUR TEAM</h2>
           <h1>Best dedicated team</h1>
@@ -271,7 +271,7 @@ function About() {
 
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }

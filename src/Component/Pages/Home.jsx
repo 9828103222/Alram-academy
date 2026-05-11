@@ -2,9 +2,14 @@ import React from "react";
 // import homeimg from '../../assets/home.jpg'
 import About from "../../Component/Pages/About";
 import Reviews from "./Reviews";
-import review1 from "../../assets/review1.jpg";
-import review2 from "../../assets/review2.jpg";
-import review3 from "../../assets/review3.jpg";
+import homeimg1 from "../../assets/homeimg1.jpg";
+import homeimg2 from "../../assets/homeimg2.jpg";
+import homeimg3 from "../../assets/homeimg3.jpg";
+import homeimg5 from "../../assets/homeimg5.jpg";
+import homeimg6 from "../../assets/homeimg6.png";
+import homeimg8 from "../../assets/homeimg8.png";
+import homeimg7 from "../../assets/homeimg7.jpeg";
+
 import homebgcimg from "../../assets/homebgcimg.png";
 import WhyCoursesHere from "./WhyCoursesHere";
 import Trainer from "./Trainer";
@@ -37,31 +42,31 @@ function Home() {
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12 middd">
               <div className="homeimg1">
-              <img  src={review1} alt="" />
+              <img  src={homeimg3} alt="" />
               </div>
 
               <div className="homeimg2">
-              <img  src={review2} alt="" />
+              <img  src={homeimg1} alt="" />
               </div>
 
                <div className="homeimg3">
-              <img  src={review3} alt="" />
+              <img  src={homeimg2} alt="" />
               </div>
 
               <div className="homeimg4">
-              <img  src={review3} alt="" />
+              <img  src={homeimg7} alt="" />
               </div>
 
               <div className="homeimg5">
-              <img  src={review2} alt="" />
+              <img  src={homeimg5} alt="" />
               </div>
 
               <div className="homeimg6">
-              <img  src={review1} alt="" />
+              <img  src={homeimg6} alt="" />
               </div>
 
               <div className="homeimg7">
-              <img  src={review2} alt="" />
+              <img  src={homeimg8} alt="" />
               </div>
 
 

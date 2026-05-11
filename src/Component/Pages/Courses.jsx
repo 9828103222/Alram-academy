@@ -119,7 +119,7 @@ function Courses() {
                 <div className="col-lg-4 col-md-6 col-sm-12 choosecoursecards2">
                   <div className="innertext">
                   <div className="frontcard">
-                  <h1>UI/UX DESIGNING</h1>
+                  <h1>WEB DESIGN</h1>
                   <p>By Somesh Sharma</p>
                   <img src={choosecoursecard2} alt="" className="img-fluid" />
                   <div className="buttons">
@@ -145,7 +145,7 @@ function Courses() {
                 <div className="col-lg-4 col-md-6 col-sm-12 choosecoursecards3">
                   <div className="innertext">
                   <div className="frontcard">
-                  <h1>UI/UX DESIGNING</h1>
+                  <h1>FRONTED DEVELOPMENT</h1>
                   <p>By Somesh Sharma</p>
                   <img src={choosecoursecard3} alt="" className="img-fluid" />
                   <div className="buttons">
@@ -172,7 +172,7 @@ function Courses() {
                 <div className="col-lg-4 col-md-6 col-sm-12 choosecoursecards1">
                   <div className="innertext">
                   <div className="frontcard">
-                  <h1>UI/UX DESIGNING</h1>
+                  <h1>FULL STACK DEVELOPMENT</h1>
                   <p>By Somesh Sharma</p>
                   <img src={choosecoursecard4} alt="" className="img-fluid" />
                   <div className="buttons">
@@ -197,8 +197,8 @@ function Courses() {
                 <div className="col-lg-4 col-md-6 col-sm-12 choosecoursecards2">
                   <div className="innertext">
                   <div className="frontcard">
-                  <h1>UI/UX DESIGNING</h1>
-                  <p>By Somesh Sharma</p>
+                  <h1>E COMMERCE</h1>
+                  <p>By Prashant Kaushik  </p>
                   <img src={choosecoursecard5} alt="" className="img-fluid" />
                   <div className="buttons">
                     <a href="">1.3 Hour</a>
@@ -222,8 +222,8 @@ function Courses() {
                 <div className="col-lg-4 col-md-6 col-sm-12 choosecoursecards3">
                   <div className="innertext">
                   <div className="frontcard">
-                  <h1>UI/UX DESIGNING</h1>
-                  <p>By Somesh Sharma</p>
+                  <h1>DIGITAL MARKETING</h1>
+                  <p>By Taslim Sir  </p>
                   <img src={choosecoursecard6} alt="" className="img-fluid" />
                   <div className="buttons">
                     <a href="">1.3 Hour</a>

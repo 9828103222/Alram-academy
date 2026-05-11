@@ -38,7 +38,7 @@ function ReviewsProps() {
 
           <SwiperSlide>
             <Review
-              reviewhead="This academy completely changed my confidence! I learned e-commerce from scratch and even built my own website."
+              reviewhead="I’ve completed my UI/UX course from Alram Academy, Jaipur, and my experience here was truly the best! The environment is very positive and friendly. My teacher Somesh Sir has a very calm nature and always motivated me throughout the course. The owner is also very supportive and helpful. "
               reviewimg={review1}
               reviewname="Tisha Megnani"
             />
@@ -47,7 +47,8 @@ function ReviewsProps() {
           <SwiperSlide>
             <Review
               reviewimg={review2}
-              reviewhead="Best decision ever! The e-commerce modules plus the web development training helped me launch my own online store."
+              reviewhead="Alram Academy is the best institute in Jaipur for those seeking top-notch training in E-Commerce . Their approach focuses on practical knowledge, ensuring students gain hands-on experience rather than just theoretical understanding. I had an exceptional learning experience, and the instructors, particularly Mr. Prashant Kaushik , were incredibly supportive and guided me through my projects..
+"
               reviewname="Preeti Sadhwani"
             />
           </SwiperSlide>
@@ -56,14 +57,16 @@ function ReviewsProps() {
           <SwiperSlide>
             <Review
               reviewimg={review3}
-              reviewhead="Amazing experience! I understood SEO, product listing, and website creation all in one place."
+              reviewhead="I’ve completed my UI/UX course from Alram Academy, Jaipur, and my experience here was truly the best! The environment is very positive and friendly. My teacher Somesh Sir has a very calm nature and always motivated me throughout the course. The owner is also very supportive and helpful.
+"
               reviewname="Gati Jain"
             />
           </SwiperSlide>
 
   <SwiperSlide>
             <Review
-              reviewhead="This academy completely changed my confidence! I learned e-commerce from scratch and even built my own website."
+              reviewhead="I’ve completed my UI/UX course from Alram Academy, Jaipur, and my experience here was truly the best! The environment is very positive and friendly. My teacher Somesh Sir has a very calm nature and always motivated me throughout the course. The owner is also very supportive and helpful.
+"
               reviewimg={review1}
               reviewname="Tisha Megnani"
             />
@@ -72,7 +75,8 @@ function ReviewsProps() {
           <SwiperSlide>
             <Review
               reviewimg={review2}
-              reviewhead="Best decision ever! The e-commerce modules plus the web development training helped me launch my own online store."
+              reviewhead="Alram Academy is the best institute in Jaipur for those seeking top-notch training in E-Commerce . Their approach focuses on practical knowledge, ensuring students gain hands-on experience rather than just theoretical understanding. I had an exceptional learning experience, and the instructors, particularly Mr. Prashant Kaushik , were incredibly supportive and guided me through my projects.
+"
               reviewname="Preeti Sadhwani"
             />
           </SwiperSlide>
@@ -81,7 +85,8 @@ function ReviewsProps() {
           <SwiperSlide>
             <Review
               reviewimg={review3}
-              reviewhead="Amazing experience! I understood SEO, product listing, and website creation all in one place."
+              reviewhead="I’ve completed my UI/UX course from Alram Academy, Jaipur, and my experience here was truly the best! The environment is very positive and friendly. My teacher Somesh Sir has a very calm nature and always motivated me throughout the course. The owner is also very supportive and helpful.
+"
               reviewname="Gati Jain"
             />
           </SwiperSlide>

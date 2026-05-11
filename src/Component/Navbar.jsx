@@ -32,6 +32,7 @@ function Navbar() {
                 <li className="nav-item"><Link className="nav-link" to="/courses">COURSES</Link></li>
                 <li className="nav-item"><Link className="nav-link" to="/reviews">REVIEWS</Link></li>
                 <li className="nav-item"><Link className="nav-link" to="/portfolio">GALLERY</Link></li>
+                  <li className="nav-item"><Link className="nav-link" to="/ourteams">OUR TEAM</Link></li>
               </ul>
             </div>
 
