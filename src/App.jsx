@@ -19,11 +19,24 @@ import Cursor from "./Component/Cursor.jsx";
 import ScrollToTop from "./Component/ScrollToTop.jsx";
 import OurTeams from './Component/Pages/OurTeams.jsx'
 import PrivacyPolicy from './Component/Pages/PrivacyPolicy.jsx'
+import AdminLogin from './AdminPannel/AdminLogin.jsx'
+import Dashboard from './AdminPannel/Dashboard.jsx'
+import { useLocation } from "react-router-dom";
+import Leads from "./AdminPannel/Leads.jsx";
+import TodayLeads from './AdminPannel/TodayLeads.jsx'
 
 
 
 
 function App() {
+
+
+  const location = useLocation();
+ const hideLayout =
+  location.pathname === "/admin-login" ||
+  location.pathname === "/dashboard" ||
+  location.pathname === "/leads" ||
+  location.pathname === "/today-leads";
 
 
   //   useEffect(() => {
@@ -56,7 +69,7 @@ function App() {
     <>
     <ScrollToTop />
      <Cursor />  
-  <Navbar/>
+  {!hideLayout && <Navbar />}
 
   <Routes>
     <Route path="/" element={<Home/>} />
@@ -69,10 +82,14 @@ function App() {
     <Route path='/contact' element={<Contact/>}/>
     <Route path='/ourteam' element={<OurTeams/>}/>
     <Route path='/privacypolicy' element={<PrivacyPolicy/>}/>
+    <Route path="/admin-login" element={<AdminLogin/>} />
+    <Route path="/dashboard" element={<Dashboard />} />
+    <Route path="/leads" element={<Leads />} />
+    <Route path="/today-leads" element={<TodayLeads />} />
 
   </Routes>
   
-  <Footer/>
+ {!hideLayout && <Footer />}
     </>
   )
 }
